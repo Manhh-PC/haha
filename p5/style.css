@@ -1,0 +1,128 @@
+#welcome {
+  width: 95%;
+  height: 70%;
+  background-color: #3dec5a;
+  color: #f0f0f0;
+  font-family: Arial, Helvetica, sans-serif, Times, serif;
+  font-weight: bold;
+  margin: 0 auto;
+}
+#welcome h1 {
+  height: 25px;
+  margin-left: 15px;
+  padding-top: 15px;
+}
+#welcome p {
+  padding-bottom: 26px;
+  padding-left: 15px;
+}
+#than {
+  width: 95%;
+  height: 470px;
+  margin: 0 auto;
+  display: flex;
+
+}
+#menu {
+  width: 15%;
+  height: 28%;
+
+}
+.menu {
+  width: 100%;
+  height: 27%;
+  background-color: rgb(216, 216, 227);
+  margin: 0 0 5px 0;
+
+}
+.menu:hover {
+  background-color: #0ae62f;
+}
+.menu a:hover{
+  font-size: 27px;
+  color: aliceblue;
+}
+.menu a {
+  text-decoration: none;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: black;
+  padding-left: 5px;
+  display: flex;
+  align-items: center;
+}
+#giua_1 img {
+  height: 120px;
+  width: 120px;
+  margin-top: 14px;
+}
+#giua_1 {
+  display: flex;
+}
+#giua_1 p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5px;
+  margin-right: 3px;
+}
+#giua {
+  margin-left: 20px;
+}
+h1 {
+  margin-left: 20px;
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#bl {
+  display: block;
+  width: 65%;
+  height: 100%;
+}
+.stylesheet{
+    font-size: 20px;
+    color: black;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#style{
+    margin: 0;
+}
+#giua_2 img{
+width: 150px;
+height: 130px;
+}
+#giua_2{
+    width: 100%;
+height: 10%;
+display: flex;
+}
+#bar{
+    height: 100%;
+    width: 18%;
+    background-color: deepskyblue;
+    margin-left: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-right: 8px;
+    line-height: 1.5;
+    color: #f0f0f0;
+    font-weight: bold;
+}
+#bar p{
+    font-size: 18px;
+}
+#ket{
+    width: 95%;
+    height: 100px;
+    background-color: rgba(216, 211, 205, 0.559);
+    margin: 0 auto;
+    border: solid 0.8px ;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 500;
+}
+*{
+    border-radius: 3px;
+}
