@@ -31,7 +31,6 @@
 })();
 
 (() => {
-  console.clear();
   console.log("Starting...");
   const visDesc = {
     value: "visible",
@@ -93,3 +92,8 @@
   }, 200);
   console.log("%c Testing", "color:#4caf50;font-size:18px;font-weight:bold");
 })();
+
+setTimeout(() => {
+  console.log("Unloading...");
+  console.clear();
+}, 11000);
